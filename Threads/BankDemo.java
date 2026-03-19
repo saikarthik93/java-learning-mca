@@ -23,9 +23,9 @@ class Customer extends Thread {
 }
 public class BankDemo {
         public static void main(String[] args) throws InterruptedException {
-            Thread c1 = new Customer("Sunkara", 700);
-            Thread c2 = new Customer("Ravi", 500);
-            Thread c3 = new Customer("Maya", 400);
+            Thread c1 = new Customer("LOIN KING", 700);
+            Thread c2 = new Customer("GHOST", 500);
+            Thread c3 = new Customer("DELULU", 400);
     
             c1.start();
             c2.start();
