@@ -1,5 +1,5 @@
 ouclass Customer extends Thread {
-    static int balance = 30000;
+    static int balance = 20000;
     private final int withdrawAmount;
 
     public Customer(String name, int amount) {
